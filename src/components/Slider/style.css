@@ -1,0 +1,50 @@
+.embla {
+  overflow: hidden;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.embla-wrapper h2 {
+  font-size: 32px;
+  letter-spacing: 4px;
+  margin-bottom: 40px;
+  margin-top: 0;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-weight: 700;
+  color: white;
+}
+
+.embla__viewport {
+  overflow: hidden;
+  width: 100%;
+}
+
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  position: relative;
+  min-width: 100%;
+  display: flex;
+}
+
+.embla__slide__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.embla__slide__text__title {
+  font-size: 36px;
+  line-height: 1.23;
+  padding-bottom: 25px;
+}
+
+.embla__slide__text__subtitle {
+  font-size: 22px;
+}
+
+.embla__slide__image img {
+  height: 400px;
+}
